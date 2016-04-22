@@ -57,7 +57,7 @@ where $a$ is the slope at the origin, reflecting density-independent survival of
 $h=\frac{\hat{\alpha}}{\hat{\alpha} + 4}$, thus $\hat{\alpha}$ is just a rescaled $h$,
 where $h$ [0.2, 1.0] and $\hat{\alpha}$ [1.0, $\infinity$].
 
-$$ SPR_{MER} = \frac{1}{\sqrt{\hat{\alpha}}} = \frac{\sqrt{1-h}}{2}\sqrt{h}$$
+\[\begin{aligned} SPR_{MER} = \frac{1}{\sqrt{\hat{\alpha}}} = \frac{\sqrt{1-h}}{2}\sqrt{h} \end{aligned}\]
 
 Environmental effects can also constrain survival of recruits at the origin, e.g.,
 temperature and advection to suitable environments.
