@@ -1,19 +1,4 @@
-``` bib
-@Article{Brooks2013,
-  Author = {Brooks, Elizabeth N.},
-  Title = {Effects of variable reproductive potential on reference points for fisheries management},
-  Journal                  = {Fisheries Research},
-  Year                     = {2013},
-  Month                    = {Feb},
-  Pages                    = {152--158},
-  Volume                   = {138},
-  Abstract                 = {Analytical and simulation results with hypothetical vectors of biological parameters were employed to demonstrate the impact of variable reproductive potential on reference points based on spawning potential ratio (SPR). Implications for stock recruit function parameterizations are also noted. For the range of variability explored in this illustration, skipped spawning had a negligible impact on reference points, while factors related to spawner condition or experience and density independent survival of recruits (i.e. slope at the origin) had greater effects. When estimating yield per recruit (YPR) associated with a specified SPR, the variability in the biological parameters was greatly dampened. Estimating correlations between the observed trends in maturity and fecundity, and developing models to forecast the probabilities associated with observing a biological state in the future, would be an important contribution to understanding uncertainty in rebuilding projections and future catch advice.},
-  Doi                      = {10.1016/j.fishres.2012.06.003},
-  File                     = {:papers\\stockassessment\\recruitment\\brooks_2013_fishres_EffectsOfVariableReproductivePotentialOnReferencePointsForFisheriesManagement.pdf:PDF},
-  ISSN                     = {0165-7836},
-  Keywords                 = {Reproductive variability; Reference points; Maximum lifetime reproductive rate; Steepness; Maternal and environmental effects},
-}
-```
+    Author: Kelli Faye Johnson
 
 Summary
 =======
