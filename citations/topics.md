@@ -67,7 +67,7 @@ power of borrowing information from other populations: [(Óigáard and Skaug, 20
 
 #### Safety
 
-Catch shares reduce the risk of fishers exhibiting risky behaviour. With the implementation of catch shares many fisheries exhibit increased season lengths; consequently, fishers are less likely to embark in a fishing expedition in risky weather [(Pfeiffer and Gratz, 2016)](notes/notes_processed/Pfeiffer2016).
+Catch shares reduce the risk of fishers exhibiting risky behaviour. With the implementation of catch shares many fisheries exhibit increased season lengths; consequently, fishers are less likely to embark in a fishing expedition in risky weather [(Pfeiffer and Gratz, 2016)](notes/notes_processed/Pfeiffer2016.md).
 
 ### Ideal free distribution
 
