@@ -13,7 +13,16 @@
 
 Theory indicates with the cessation of fishing stocks should recover, but in practice recovery has been slow or not at all (Hutchings, 1996).
 
-Fisheries induce multiple changes, but typically the first two are the only ones acknowledged: \* accounted for in stock assessment models \* reduction in biomass \* reduction in abundance \* not typically accounted for in stock assessment models \* truncated age structure: reduced reproductive potential (Murawski, 2000), increased variability in recruitment (Longhurst, 2002), increased vulnerability to environmental fluctuations (Hsieh *et al.*, 2008) \* change the biotic environment: reduce intraspecific competition which could lead to increased growth, earlier maturation, can also change interspecific interactions \* fundamental changes to the natural mortality schedule of fishes \* changes in ecosystem structure, causing regime shifts and alternative stable states (Jackson *et al.*, 2001; Scheffer *et al.*, 2005)
+Fisheries induce multiple changes, but typically the first two are the only ones acknowledged:
+
+-   accounted for in stock assessment models
+    -   reduction in biomass
+    -   reduction in abundance
+-   not typically accounted for in stock assessment models
+    -   truncated age structure: reduced reproductive potential (Murawski, 2000), increased variability in recruitment (Longhurst, 2002), increased vulnerability to environmental fluctuations (Hsieh *et al.*, 2008)
+    -   change the biotic environment: reduce intraspecific competition which could lead to increased growth, earlier maturation, can also change interspecific interactions
+    -   fundamental changes to the natural mortality schedule of fishes
+    -   changes in ecosystem structure, causing regime shifts and alternative stable states (Jackson *et al.*, 2001; Scheffer *et al.*, 2005)
 
 # Fisheries policy
 

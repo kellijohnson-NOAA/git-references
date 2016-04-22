@@ -23,6 +23,7 @@ Theory indicates with the cessation of fishing stocks should recover,
 but in practice recovery has been slow or not at all [@hutchings_spatial_1996].
 
 Fisheries induce multiple changes, but typically the first two are the only ones acknowledged:
+
 * accounted for in stock assessment models
     * reduction in biomass
     * reduction in abundance
