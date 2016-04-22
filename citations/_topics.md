@@ -140,7 +140,7 @@ Consumption rates of wild fish are problematic because (a) stomach sampling is i
 (b) bio-energetics requires size and temperature dependence of metabolism, 
 (c) containment (e.g. Cs, Hg) requires precise estimates of prey containment concentration, and 
 (d) regression analyses have limited predictive capability. 
-Using VBGF and size-at-age data [@essington_von_2001](notes/notes_processed/Essington2001.md) 
+Using VBGF and size-at-age data [[@essington_von_2001]](notes/notes_processed/Essington2001.md) 
 to estimate consumption rates was further developed by [@walters_2010, @beaudreau_2009, @ferriss_2014]
 to include using tagging data accounting for temperature dependence and energy allocation; 
 accounting for gastric evacuation rates and gut residence time; and accounting for patterns of Hg-at-size respectively. 
@@ -160,7 +160,7 @@ The method cannot account for length or age structure of diet data.
 #### Integrated-analysis
 
 Most analyses are performed using an 
-[integrated approach](notes/notes_processes/Maunder2003.md),
+[integrated approach](notes/notes_processed/Maunder2003.md),
 that has the ability to included data from multiple sources [@maunder2003].
 
 #### VPA
@@ -277,3 +277,5 @@ SES - social-ecological systems
 VBGF - von Bertalanffy growth function
 
 VPA - virtual population analysis
+
+# References

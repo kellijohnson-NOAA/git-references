@@ -89,7 +89,7 @@ If the environment acts as a driver of recruitment forecasts which do not accoun
 
 ### Multi-species stock assessment models
 
-The study of predator-prey interactions necessitates the study of both what (composition) and how much ([consumption rates](notes/notes_processed/Essington2001.md)) fish eat. Consumption rates of wild fish are problematic because (a) stomach sampling is intensive, (b) bio-energetics requires size and temperature dependence of metabolism, (c) containment (e.g. Cs, Hg) requires precise estimates of prey containment concentration, and (d) regression analyses have limited predictive capability. Using VBGF and size-at-age data (Essington *et al.*, 2001)(notes/notes\_processed/Essington2001.md) to estimate consumption rates was further developed by (Walters and Essington, 2010, Beaudreau and Essington (2009), Ferriss and Essington (2014)) to include using tagging data accounting for temperature dependence and energy allocation; accounting for gastric evacuation rates and gut residence time; and accounting for patterns of Hg-at-size respectively.
+The study of predator-prey interactions necessitates the study of both what (composition) and how much ([consumption rates](notes/notes_processed/Essington2001.md)) fish eat. Consumption rates of wild fish are problematic because (a) stomach sampling is intensive, (b) bio-energetics requires size and temperature dependence of metabolism, (c) containment (e.g. Cs, Hg) requires precise estimates of prey containment concentration, and (d) regression analyses have limited predictive capability. Using VBGF and size-at-age data [(Essington *et al.*, 2001)](notes/notes_processed/Essington2001.md) to estimate consumption rates was further developed by (Walters and Essington, 2010, Beaudreau and Essington (2009), Ferriss and Essington (2014)) to include using tagging data accounting for temperature dependence and energy allocation; accounting for gastric evacuation rates and gut residence time; and accounting for patterns of Hg-at-size respectively.
 
 MSVPA - A multi-species stock assessment model that estimates current and historical biomass, while explicitly accounting for predation among species included in the model (Magnússon, 1995). MSVPA assumes stomach-content data and catch are known without error, when in actuality stomach-content data are highly variable. Thus, suitability of prey for each predator and the age structure of the catch are not estimated, but assumed to be known without error.
 
@@ -99,7 +99,7 @@ Gadget - A likelihood based stock assessment method that accounts for multiple s
 
 #### Integrated-analysis
 
-Most analyses are performed using an [integrated approach](notes/notes_processes/Maunder2003.md), that has the ability to included data from multiple sources (Maunder and Watters, 2003).
+Most analyses are performed using an [integrated approach](notes/notes_processed/Maunder2003.md), that has the ability to included data from multiple sources (Maunder and Watters, 2003).
 
 #### VPA
 
@@ -176,6 +176,8 @@ SES - social-ecological systems
 VBGF - von Bertalanffy growth function
 
 VPA - virtual population analysis
+
+# References
 
 Abrams, P. A. 1994. The fallacies of ‘ratio-dependent’ predation. Ecology: 1842–1850. <http://www.jstor.org/stable/10.2307/1939644> (Accessed 11 October 2013).
 
