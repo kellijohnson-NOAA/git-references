@@ -79,7 +79,7 @@ The Pope (1972) approximation to \(F_{a,y}\) is based on the summation of mortal
 
 ## Recruitment
 
-Typically, recruitment is measured using a lognormal distribution. Catch-at-age data help inform recruitment and information on its variability (Maunder and Deriso, 2003)(notes/notes\_processed/Maunder2003\_recruitment.md).
+Typically, recruitment is measured using a lognormal distribution. Catch-at-age data help inform recruitment and information on its variability [(Maunder and Deriso, 2003)](notes/notes_processed/Maunder2003_recruitment.md).
 
 ### Recruitment forecasting
 

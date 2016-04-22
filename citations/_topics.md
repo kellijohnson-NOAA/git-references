@@ -120,7 +120,7 @@ $$F_y = ln(\frac{N_y}{N_{y+1}}) - M.$$
 
 Typically, recruitment is measured using a lognormal distribution. 
 Catch-at-age data help inform recruitment and information on its variability 
-[@Maunder2003_recruitment](notes/notes_processed/Maunder2003_recruitment.md).
+[[@Maunder2003_recruitment]](notes/notes_processed/Maunder2003_recruitment.md).
 
 ### Recruitment forecasting
 If the environment acts as a driver of recruitment forecasts which do not account for recruitment 
