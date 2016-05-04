@@ -11,7 +11,7 @@
     -   time-invariant weight-at-age
     -   time-invariant selectivity
     -   survey catchability was set to 1 for all species
-    -   predator ingestion rate (Aydin *et al.* (2007) Essington *et al.* (2001)) must be constant because length- and weight-at-age are time-invariant
+    -   predator ingestion rate (Aydin et al. (2007) Essington et al. (2001)) must be constant because length- and weight-at-age are time-invariant
 
 Aydin, K. Y., Gaichas, S., Ortiz, I., Kinzey, D., and Friday, N. 2007. A comparison of the bering sea, gulf of alaska, and aleutian islands large marine ecosystems through food web modeling. NMFS-AFSC-178. U.S. Dep. Commer., NOAA Tech. Memo. [www.afsc.noaa.gov/Publications/AFSC-TM/NOAA-TM-AFSC-178.pdf](www.afsc.noaa.gov/Publications/AFSC-TM/NOAA-TM-AFSC-178.pdf).
 

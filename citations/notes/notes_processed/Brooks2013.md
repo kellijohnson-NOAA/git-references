@@ -16,11 +16,11 @@ Growth may be cohort dependent and using an average of growth across all cohorts
 
 $ \_o $ is the unexploited SPR and \(\frac{1}{\varphi_0}\) is the replacement line.
 
-MER defines the reference point where yield in numbers if maximized, where MSY defines the maximum yield in biomass. MER reference points often can withstand a higher \(F\) and lower \(\%SPR\) but it depends on biology and selectivity, though not as much when steepness is low (i.e., recruits are highly dependent on SSB). \(\hat{\alpha}\) is the maximum lifetime reproductive rate, which equals \(a\varphi_0\), where \(a\) is the slope at the origin, reflecting density-independent survival of recruits. \(h=\frac{\hat{\alpha}}{\hat{\alpha} + 4}\), thus \(\hat{\alpha}\) is just a rescaled \(h\), where \(h\) \[0.2, 1.0\] and \(\hat{\alpha}\) \[1.0, \(\infinity\)\].
+MER defines the reference point where yield in numbers if maximized, where MSY defines the maximum yield in biomass. MER reference points often can withstand a higher \(F\) and lower \(\%SPR\) but it depends on biology and selectivity, though not as much when steepness is low (i.e., recruits are highly dependent on SSB). \(\hat{\alpha}\) is the maximum lifetime reproductive rate, which equals \(a\varphi_0\), where \(a\) is the slope at the origin, reflecting density-independent survival of recruits. \(h=\frac{\hat{\alpha}}{\hat{\alpha} + 4}\), thus \(\hat{\alpha}\) is just a rescaled \(h\), where \(h\) [0.2, 1.0] and \(\hat{\alpha}\) [1.0, \(\infinity\)].
 
-\[
+[
 \begin{aligned} SPR_{MER} = \frac{1}{\sqrt{\hat{\alpha}}} = \frac{\sqrt{1-h}}{2}\sqrt{h} \end{aligned}
-\]
+]
 
 Environmental effects can also constrain survival of recruits at the origin, e.g., temperature and advection to suitable environments.
 

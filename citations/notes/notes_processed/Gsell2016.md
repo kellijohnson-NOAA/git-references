@@ -27,12 +27,12 @@ References
 | Key                        | Read | Helpful |
 |----------------------------|------|---------|
 | Francis (2014)             |      |         |
-| Hampton *et al.* (2013)    |      |         |
-| Ives *et al.* (2003)       |      |         |
-| Ives *et al.* (1999)       |      |         |
-| Kuiper *et al.* (2015)     |      |         |
+| Hampton et al. (2013)      |      |         |
+| Ives et al. (2003)         |      |         |
+| Ives et al. (1999)         |      |         |
+| Kuiper et al. (2015)       |      |         |
 | Klug and Cottingham (2001) |      |         |
-| Scheef *et al.* (2013)     |      |         |
+| Scheef et al. (2013)       |      |         |
 
 Francis, R. C. 2014. Replacing the multinomial in stock assessment models: A first step. Fisheries Research, 151: 70–84. Elsevier BV. <http://dx.doi.org/10.1016/j.fishres.2013.12.015>.
 
@@ -42,7 +42,7 @@ Ives, A. R., Carpenter, S. R., and Dennis, B. 1999. Community interaction webs a
 
 Ives, A. R., Dennis, B., Cottingham, K. L., and Carpenter, S. R. 2003. Estimating community stability and ecological interactions from time-series data. Ecological Monographs, 73: 301–330. <http://www.esajournals.org/doi/abs/10.1890/0012-9615%282003%29073%5B0301%3AECSAEI%5D2.0.CO%3B2>.
 
-Klug, J. L., and Cottingham, K. L. 2001. Interactions among environmental drivers: Community responses to changing nutrients and dissolved organic carbon. Ecology, 82: 3390–3403. Wiley-Blackwell. [http://dx.doi.org/10.1890/0012-9658(2001)082\[3390:IAEDCR\]2.0.CO;2](http://dx.doi.org/10.1890/0012-9658(2001)082[3390:IAEDCR]2.0.CO;2).
+Klug, J. L., and Cottingham, K. L. 2001. Interactions among environmental drivers: Community responses to changing nutrients and dissolved organic carbon. Ecology, 82: 3390–3403. Wiley-Blackwell. [http://dx.doi.org/10.1890/0012-9658(2001)082[3390:IAEDCR]2.0.CO;2](http://dx.doi.org/10.1890/0012-9658(2001)082[3390:IAEDCR]2.0.CO;2).
 
 Kuiper, J. J., Altena, C. van, Ruiter, P. C. de, Gerven, L. P. A. van, Janse, J. H., and Mooij, W. M. 2015. Food-web stability signals critical transitions in temperate shallow lakes. Nature Communications, 6: 1–7. Nature Publishing Group. <http://dx.doi.org/10.1038/ncomms8727>.
 

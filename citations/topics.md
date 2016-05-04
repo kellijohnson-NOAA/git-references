@@ -1,13 +1,26 @@
 # Functional response
 
+The per capita feeding rate on prey as a function of prey abundance (Holling, 1959). If the prey biomass remains constant over the period in which data are measured, then the result is an instantaneous measure of feeding rate. Conversely, if prey abundance changes over the period in which data are measured, then the result is an integrated feeding rate \(\frac{dN}{dt} = -f_i(N, P)P\). Where \(i\) is the type of functional response. Classically, functional response relationships assume that predators encounter prey items at random, with the number of encounters per predator being proportional to prey density. As well as, assuming that the relationship is strictly related to behaviour and that the rate at which an individual predator eats prey is not affected by the presence of other predators. In types Types I-III, predators do not interfere with one another’s activities. Functional responses, and the way in which they are parameterized, are extremely important in a multispecies context. For instance, Ecopath with Ecosim results are highly sensitive to the level of predator-dependent functional responses present, such that predictions change with intensity of predator-dependence (Cox *et al.*, 2002). Each type of functional response incorporates following parameters:
+
+-   search time (\(a\)) -
+-   handling time (\(b\)) - for each captured prey item the predator must spend time eating it
+-   satiation - the time needed to digest a prey item
+-   competition - among other predators, most often of the same species; this parameter will typically be included as \((1 - P)\) to allow a single predator to not influence its own predation rates. \((1 - P)\) should be changed to \(P\) if predators are represented by biomass and not numbers.
+
+Types include the following:
+
 -   Type I: linear, lotka-voltera
--   Type II: asymptotic
+-   Type II: asymptotic \[f_2(N,P) = \frac{aN}{1 + bN}\]
 -   Type III: sigmoid
--   Predator-dependent: per-capita consumption rates are influenced by predator abundance, Can decouple the linkage between predator abundance and the total amount of prey consumed, Ecopath with Ecosim results are highly sensitive to the level of predator-dependent functional responses present, such that predictions change with intensity of predator-dependence (Cox *et al.*, 2002), Can occur with
-    -   predator interference behaviour (Beddington, 1975; De Angelis, 1975)
+-   Predator-dependent: per-capita consumption rates are influenced by predator abundance, and work to decouple the linkage between predator abundance and the total amount of prey consumed. Predator interference models can better explain empirical data than models that are predator-independent (Skalski and Gilliam, 2001). More specifically, the Beddington-DeAngelis (Beddington, 1975; De Angelis, 1975) and Hassel-Varley (<span class="citeproc-not-found" data-reference-id="Hassel1969">**???**</span>) models should be used when the predator feeding rate becomes independent of predator density at high levels of prey density. The Crowley-Martin (Crowley and Martin, 1989) model should be used when predator feeding rates decrease with high abundances of prey. The Hassel-Varley (<span class="citeproc-not-found" data-reference-id="Hassel1969">**???**</span>) model assumes a ratio-dependent functional response when the exponent on the level of the predator is one. Predator-dependent models can occur with the following behaviours:
+
+    -   predator interference behaviour (Beddington, 1975; De Angelis, 1975) - predators do not interfere with other predators when they are handling prey. That is, as the number of prey increase to infinity the equation is reduced in the limit to \(\frac{a}{b}\). \[f_4(N,P) = \frac{aN}{1 + bN + c(P - 1)}\]
+    -   predator interference behaviour (Crowley and Martin, 1989) - predators continue to interfere with each other even at high prey densities. That is, as the number of prey increase to infinity the equation is reduced in the limit to \(\frac{a}{b(1 + c(P - 1))}\). \[f_4(N,P) = \frac{aN}{1 + bN + c(P - 1) + bcN(P - 1)}\]
+    -   ratio-dependend (<span class="citeproc-not-found" data-reference-id="Hassel1969">**???**</span>) - as modified by Sutherland (1983) \[f_5(N,P) = \frac{aN}{bN + P^m}\]
     -   prey refuging behaviour (Abrams, 1994; Abrams and Walters, 1996)
     -   size-based predation (Armstrong, 1999)
     -   spatial heterogeneity (Keeling *et al.*, 2000; Poggiale *et al.*, 1998)
+    -   time lost hunting for prey
 
 # Fisheries induced evolution
 
@@ -42,13 +55,31 @@ An ecosystem-based approach to fisheries management goes beyond the effects of f
 
 The physical contact of bottom-trawl fisheries with the seabed can lead to several changes to the structure of the benthic ecosystem, as well as the catch of non-target species (i.e., bycatch).
 
+### Indicators
+
+There are many types of indicators, as well as an entire professional journal dedicated to the topic, [*Ecological Indicators*](http://www.sciencedirect.com/science/journal/1470160X). The symposium on “Quantitative Ecosystem Indicators for Fisheries Management” co-organized by UNESCO and SCOR, met to provide information and guidelines about how to develop, test, and apply indicators for EBFM, and the results are available in [ICES 62(3)](EBFMIndicators.md).
+
 # Models
 
 All models are a simplification of reality (Walters, 1986)
 
+## Model selection
+
+### AIC
+
+Minimizes the sum of the negative log-likelihood and the parameters.
+
+### Likelihood-ratio test
+
+\(n(log[\hat{SS}_1] - log[\hat{SS}_2])\), and if 2 is a better fit to the data than 1 than the likelihood ratio test will be positive.
+
 # Somatic growth
 
 Evidence for time-varying somatic growth using real data: [(Whitten *et al.*, 2013)](notes/notes_processed/Whitten2013.md)
+
+## von Bertalanffy (Bertalanffy, 1938)
+
+A bioenergetic expression of fish growth that uses a mass balance equation. The model assumes that growth is continuous, and not seasonal. By using size-at-age data you can determine how much, on average, a fish grows between ages and back-calculate how much fish they must consume to sustain that growth (Essington *et al.*, 2001).
 
 # State-space population dynamics models
 
@@ -71,7 +102,7 @@ Catch shares reduce the risk of fishers exhibiting risky behaviour. With the imp
 
 ### Ideal free distribution
 
-Fretwell and Lucas Gillis *et al.* (1993)
+Fretwell and Lucas Gillis et al. (1993)
 
 ## Pope’s approximation
 
@@ -113,13 +144,17 @@ Allometry - the growth of body parts at different rates, resulting in a change o
 
 Balanced harvesting - distribution of a moderate fishing mortality rate for the widest range of species, stocks, and sizes in the ecosystem based on the productivity of each group that maintains the relative size and species composition of the ecosystem.
 
+Catabolism - energy expenditure.
+
 Clumsy solutions - Exploratory solutions that include inputs from a broad range of stakeholders along the fish chain, and require information-sharing, knowledge synthesis, and trust-building
 
 Co-management - A resource management partnership in which local users and other stakeholders share power and responsibility with government agencies
 
 Ecosystem stewardship - A strategy to respond to and shape SESs under conditions of uncertainty and change to sustain the supply and opportunities for use of ecosystem services to support human well-being
 
-Functional response - the rate at which an individual predator is able to obtain its prey given prey and predator densities. Incorporates search time, handling time for each captured prey item, time needed to digest a prey item (satiation), and competition with other predators.
+Feeding rate - transfer of biomass between trophic levels.
+
+Functional response - the rate at which an individual predator is able to obtain its prey given prey and predator densities.
 
 Harvest control rule - formalized decision rules defining the level of *F* that can be applied to the fishery in the future given the current level of *SSB* and *F* relative to their reference values
 
@@ -169,9 +204,13 @@ NAO - North Atlantic Oscilliation
 
 OM - operating model
 
+SCOR - Scientific Committee on Oceanic Research
+
 SES - social-ecological systems
 
 *SSB* - spawning stock biomass
+
+UNESCO - United Nationals Educational, Scientific and Cultural Organization
 
 VBGF - von Bertalanffy growth function
 
@@ -197,6 +236,8 @@ Bertalanffy, L. von. 1938. A quantitative theory of organic growth (inquiries on
 
 Cox, S. P., Essington, T. E., Kitchell, J. F., Martell, S. J. D., Walters, C. J., Boggs, C., and Kaplan, I. 2002. Reconstructing ecosystem dynamics in the central pacific ocean, 1952–1998. iI. a preliminary assessment of the trophic impacts of fishing and effects on tuna dynamics. Canadian Journal of Fisheries and Aquatic Sciences, 59: 1736–1747. Canadian Science Publishing. <http://dx.doi.org/10.1139/f02-138>.
 
+Crowley, P. H., and Martin, E. K. 1989. Functional responses and interference within and between year classes of a dragonfly population. Journal of the North American Benthological Society, 8: 211–221. [University of Chicago Press, Society for Freshwater Science]. <http://www.jstor.org/stable/1467324>.
+
 De Angelis, D. L. 1975. Stability and connectance in food web models. Ecology: 238–243. JSTOR.
 
 Essington, T. E., Kitchell, J. F., and Walters, C. J. 2001. The von bertalanffy growth function, bioenergetics, and the consumption rates of fish. Canadian Journal of Fisheries and Aquatic Sciences, 58: 2129–2138. <http://www.nrcresearchpress.com/doi/abs/10.1139/f01-151> (Accessed 8 July 2014).
@@ -205,11 +246,13 @@ Ferriss, B. E., and Essington, T. E. 2014. Can fish consumption rate estimates b
 
 Gillis, D. M., Peterman, R. M., and Tyler, A. V. 1993. Movement dynamics in a fishery: Application of the ideal free distribution to spatial allocation of effort. Canadian Journal of Fisheries and Aquatic Sciences, 50: 323–333. Canadian Science Publishing. <http://dx.doi.org/10.1139/f93-038>.
 
+Holling, C. S. 1959. The components of predation as revealed by a study of small-mammal predation of the european pine sawfly. The Canadian Entomologist, 91: 293–320.
+
 Hsieh, C.-h., Reiss, C. S., Hewitt, R. P., and Sugihara, G. 2008. Spatial analysis shows that fishing enhances the climatic sensitivity of marine fishes. Canadian Journal of Fisheries and Aquatic Sciences, 65: 947–961. NRC Research Press.
 
 Hutchings, J. A. 1996. Spatial and temporal variation in the density of northern cod and a review of hypotheses for the stock’s collapse. Canadian Journal of Fisheries and Aquatic Sciences, 53: 943–962. <http://www.nrc.ca/cgi-bin/cisti/journals/rp/rp2_abst_e?cjfas_f96-097_53_ns_nf_cjfas53-96> (Accessed 11 March 2013).
 
-Jackson, J. B., Kirby, M. X., Berger, W. H., Bjorndal, K. A., Botsford, L. W., Bourque, B. J., and Bradbury, R. H. *et al.* 2001. Historical overfishing and the recent collapse of coastal ecosystems. Science, 293: 629–637. <http://www.sciencemag.org/content/293/5530/629.short> (Accessed 11 October 2013).
+Jackson, J. B., Kirby, M. X., Berger, W. H., Bjorndal, K. A., Botsford, L. W., Bourque, B. J., and Bradbury, R. H.*et al.* 2001. Historical overfishing and the recent collapse of coastal ecosystems. Science, 293: 629–637. <http://www.sciencemag.org/content/293/5530/629.short> (Accessed 11 October 2013).
 
 Keeling, M. J., Wilson, H. B., and Pacala, S. W. 2000. Reinterpreting space, time lags, and functional responses in ecological models. Science, 290: 1758–1761. <http://www.sciencemag.org/content/290/5497/1758.short> (Accessed 11 October 2013).
 
@@ -233,12 +276,16 @@ Pope, J. 1972. An investigation of the accuracy of virtual population analysis. 
 
 Scheffer, M., Carpenter, S., and Young, B. de. 2005. Cascading effects of overfishing marine systems. Trends in Ecology & Evolution, 20: 579–581. Elsevier.
 
+Skalski, G. T., and Gilliam, J. F. 2001. Functional responses with predator interference: Viable alternatives to the holling type II model. Ecology, 82: 3083–3092. <http://www.esajournals.org/doi/abs/10.1890/0012-9658(2001)082%5B3083:FRWPIV%5D2.0.CO%3B2> (Accessed 11 October 2013).
+
+Sutherland, W. J. 1983. Aggregation and the ‘ideal free’ distribution. Journal of Animal Ecology, 52: 821–828. [Wiley, British Ecological Society]. <http://www.jstor.org/stable/4456>.
+
 Walters, C. J. 1986. Adaptive management of renewable resources. MacMillan Publishing Company, New York.
 
 Walters, C. J., and Essington, T. 2010. Recovery of bioenergetics parameters from information on growth: Overview of an approach based on statistical analysis of tagging and size-at-age data. Open Fish Science Journal, 3: 52–68. <http://benthamopen.com/tofishsj/articles/V003/SI0051TOFISHSJ/52TOFISHSJ.pdf>.
 
 Whitten, A. R., Klaer, N. L., Tuck, G. N., and Day, R. W. 2013. Accounting for cohort-specific variable growth in fisheries stock assessments: A case study from south-eastern Australia. Fisheries Research, 142: 27–36. Elsevier BV. <http://dx.doi.org/10.1016/j.fishres.2012.06.021>.
 
-Worm, B., Barbier, E. B., Beaumont, N., Duffy, J. E., Folke, C., Halpern, B. S., and Jackson, J. B. *et al.* 2006. Impacts of biodiversity loss on ocean ecosystem services. Science, 314: 787–790. <http://www.sciencemag.org/cgi/doi/10.1126/science.1132294>.
+Worm, B., Barbier, E. B., Beaumont, N., Duffy, J. E., Folke, C., Halpern, B. S., and Jackson, J. B.*et al.* 2006. Impacts of biodiversity loss on ocean ecosystem services. Science, 314: 787–790. <http://www.sciencemag.org/cgi/doi/10.1126/science.1132294>.
 
 
