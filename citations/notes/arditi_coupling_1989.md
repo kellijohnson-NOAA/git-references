@@ -54,6 +54,52 @@ do not interfere directly.
 * spatial aggregation of predators relative to their prey [@Hanski1991]
 * intermittent prey reproduction
 
-# Results
+# Models
+
+## Equations
+First order differential prey-dependent equations:
+$$ \frac{dN}{dt} = f(N) * N - g(N,P) * P$$
+$$ \frac{dP}{dt} = h(N,P) * P - \mu * P$$
+where, $N$ and $P$ are prey and predators in numbers, respectively.
+Typically, predator production can be approximated through a proportionality
+constant and prey intake:
+$$ h(N,P) = g(N,P) * e$$,
+where $e$ is predator conversion of prey to production efficiency.
+First order differential ratio-dependent equations:
+$$ \frac{dN}{dt} = f(N) * N - g(\frac{N}{P}) * P$$
+$$ \frac{dP}{dt} = e * g(\frac{N}{P}) * P - \mu * P$$
+Thus, the functional response is the sole link between prey and their predators.
+For internal consistency, $g(N,P)$ must be interpreted as an average
+consumption rate of a typically predator over the time it takes to produce a single
+generation of prey or predators.
 
 ## Isoclines
+### Prey dependent
+The predator isocline is always vertical for the prey-dependent functional
+response, and $A$ decreases with increasing predator efficiency.
+$$ \frac{dP}{dt} = h(N,P) * P - \mu * P$$
+$$ 0 = h(N,P) * P - \mu * P$$
+$$ h(N,P) * P = \mu * P$$
+$$ e * g(N,P) * P = \mu * P$$
+$$ \frac{e * g(N,P) * P}{P} = \mu$$
+$$ e * g(N,P) = \mu$$
+$$ g(N,P) = \frac{\mu}{e}$$
+$$ A = g^{-1}(\frac{\mu}{e})$$
+
+The prey isocline can be dome shaped, but does not have to be.
+$$ \frac{dN}{dt} = f(N) * N - g(N,P) * P$$
+$$ 0 = f(N) * N - g(N,P) * P$$
+$$ f(N) * N = g(N,P) * P$$
+$$ \frac{f(N)}{g(N,P)} = \frac{P}{N}$$
+
+If the slope at the origin of $g(N)$ is low then the hump shape will
+not appear.
+The equilibrium will be unstable if the isoclines cross on the ascending
+limb. If they do not cross because $\frac{\mu}{e}$ is steep and greater
+than the asymptote of $g$ then predators will never grow.
+
+### Ratio dependent
+$$g(\frac{N}{P}) * P <= \alpha * N$$
+where $\alpha$ is the slope at the origin of $g(\frac{N}{P})$.
+
+

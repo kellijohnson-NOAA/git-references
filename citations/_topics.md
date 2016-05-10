@@ -48,7 +48,6 @@ high abundances of prey.
 The Hassel-Varley [@Hassel1969] model assumes a ratio-dependent functional response
 when the exponent on the level of the predator is one.
 Predator-dependent models can occur with the following behaviours:
-
     * predator interference behaviour [@beddington_1975; @deangelis_1975] - predators do not
     interfere with other predators when they are handling prey. That is, as the number of prey
     increase to infinity the equation is reduced in the limit to $\frac{a}{b}$.
@@ -108,6 +107,22 @@ providing increased resilience, shown by an exponential decrease in fisheries co
 
 ## EBFM
 An ecosystem-based approach to fisheries management goes beyond the effects of fishing.
+Various definitions mean different things, although they are often used interchangeably.
+EBM refers to the entire ecosystem, and not just fisheries. Whereas, EBFM pertains to
+how fisheries operate within the ecosystem, and is often considered in a fisheries
+ecosystem plan.
+EBFM takes a coordinated approach for all fisheries within a management system and attempts
+to provide society with the most benefits by looking at more than just yield
+(e.g., diversity, resilience, or socio-economic indicators).
+Lastly, EAFM is the most narrow, excluding SSFM, and pertains to how the ecosystem
+affects the fish stock of interest. The stock is still managed through BRPs, though
+they may be influenced by environmental indices or informed by multi-species models.
+Additionally, EAFM can provide context to unmodelled uncertainty surrounding BRP or
+future management decisions, particularly in a MSE.
+Regardless of what species is being managed or which framework is being used to manage it,
+fisheries management and ecosystem management are both concerned about productivity, and
+the more that is known about the productivity of marine fishes in various environments and
+under various anthropogenic stressors the better informed management will be.
 
 ### Bottom trawling
 The physical contact of bottom-trawl fisheries with the seabed can lead to
@@ -319,7 +334,13 @@ AIC - Aikaike Information Criteria
 
 BH - Beverton and Holt stock-recruit relationship
 
+BRP - biological reference point
+
+EAFM - Ecosystem approach to fisheries management
+
 EBFM - Ecosystem-based fisheries management
+
+EBM - Ecosystem-based management
 
 EM - estimation model
 
@@ -331,7 +352,11 @@ HCR - harvest control rule
 
 ICES - International Council of the Environment and the Seas
 
+IOC - Intergovernmental Oceanographic Committee
+
 *M* - natural mortality
+
+MSE - management strategy evaluation
 
 MSVPA - multi-species virtual population analysis
 
@@ -344,6 +369,8 @@ SCOR - Scientific Committee on Oceanic Research
 SES - social-ecological systems
 
 *SSB* - spawning stock biomass
+
+SSFM - single-species fisheries management
 
 UNESCO - United Nationals Educational, Scientific and Cultural Organization
 
