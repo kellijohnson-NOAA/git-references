@@ -3,7 +3,7 @@
 #
 
 ## Location of working bibliography file
-BIB = "c:/Users/kelli/Google Drive/references/references.bib"
+BIB = "../references.bib"
 CSL = ../csl/icesjms.csl
 
 ## All markdown files in the working directory
