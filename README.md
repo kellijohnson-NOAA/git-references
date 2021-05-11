@@ -1,9 +1,7 @@
-Reference documents
-===================
+Reference information for Kelli Faye Johnson
+============================================
 
-Informative references pushed to git by 
-Kelli Faye Johnson (kfjohns@uw.edu).
+Informative references pushed to git by
+Kelli Faye Johnson (kelli.johnson@noaa.gov).
 
-csl folder contains files necessary to format references according to different journal styles. 
-
-Run make to update all notes and create the topics.md file.
+csl folder contains files necessary to format references according to different journal styles.
