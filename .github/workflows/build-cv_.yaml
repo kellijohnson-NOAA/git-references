@@ -1,11 +1,8 @@
 name: Build cv_KelliJohnson.tex
 on:
-  workflow_call:
-    inputs:
-      ref:
-        default: ${{ github.ref }}
-        required: false
-        type: string
+  push:
+    paths:
+      - '**.tex'
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
