@@ -25,7 +25,7 @@ jobs:
         with:
           root_file: cv_KelliJohnson.tex
           #args: --lua-filter=tagged-filter.lua
-          latexmk_use_lualatex: trues
+          latexmk_use_lualatex: true
           
       - name: Upload PDF file
         uses: actions/upload-artifact@v2
