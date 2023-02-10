@@ -28,14 +28,14 @@ jobs:
           latexmk_use_lualatex: true
           
       - name: Upload PDF file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: cv_KelliJohnson.pdf
           path: cv_KelliJohnson.pdf
           
       - name: Upload log file when job fails
         if: failure()
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with: 
           name: cv_KelliJohnson.log
           path: cv_KelliJohnson.log
