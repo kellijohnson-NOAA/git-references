@@ -1,5 +1,6 @@
 name: Build cv_KelliJohnson.tex
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**.tex'
